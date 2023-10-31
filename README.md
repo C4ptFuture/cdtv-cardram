@@ -17,11 +17,12 @@ This resident module can be placed on a CDTV memory card (CD1401 or CD1405) and 
 
 ## Binary
 
-The loadable module can be downloaded from the Releases page. Alternatively, you can build and/or modify the module yourself.
+The loadable module can be downloaded from the [Releases](https://github.com/C4ptFuture/cdtv-cardram/releases/) page.
+
 
 ## How to build
 
-You need vasm and the Amiga NDK. To build the resident module issue the following command:
+Alternatively, you can build the module yourself from source and modify it as you see fit. You will need vasm, vlink and the Amiga NDK. To build the resident module issue the following command:
 
 ```sh
 ENVIRONMENT=release make cardram
